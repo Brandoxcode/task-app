@@ -24,14 +24,17 @@
             }
         ],
         "paths": {
-            "@/lib": [
+            "@/lib/*": [
                 "./lib/*"
             ],
-            "@/components": [
+            "@/components/*": [
                 "./components/*"
             ],
-            "@assets": [
+            "@assets/*": [
                 "./assets/*"
+            ],
+            "@/styles/*": [
+                "./styles/*"
             ]
         }
     },
